@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[openbrowser]]>
@@ -8,32 +8,56 @@
       <![CDATA[login]]>
     </line>
     <line>
-      <![CDATA[openbrowser]]>
+      <![CDATA[createAndDeleteUser testcase has been passed]]>
     </line>
     <line>
-      <![CDATA[login]]>
-    </line>
-    <line>
-      <![CDATA[createAndDeleteUser testcase has been failed]]>
-    </line>
-    <line>
-      <![CDATA[createAndDeleteUser testcase has been failed]]>
-    </line>
-    <line>
-      <![CDATA[closebrowser]]>
-    </line>
-    <line>
-      <![CDATA[createAndDeleteCustomer testcase has been failed]]>
-    </line>
-    <line>
-      <![CDATA[createAndDeleteCustomer testcase has been failed]]>
+      <![CDATA[logout]]>
     </line>
     <line>
       <![CDATA[closebrowser]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-12-27T13:39:15 IST" name="Suite" finished-at="2023-12-27T13:39:15 IST" duration-ms="0">
+  <suite started-at="2024-05-26T20:15:16 IST" name="Default suite" finished-at="2024-05-26T20:16:26 IST" duration-ms="70610">
     <groups>
     </groups>
-  </suite> <!-- Suite -->
+    <test started-at="2024-05-26T20:15:16 IST" name="Default test" finished-at="2024-05-26T20:16:26 IST" duration-ms="70610">
+      <class name="com.actitime.testscript.UserModule">
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:com.actitime.testscript.UserModule@485966cc]" started-at="2024-05-26T20:15:16 IST" name="openbrowser" finished-at="2024-05-26T20:15:39 IST" duration-ms="23758" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[openbrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.actitime.testscript.UserModule@485966cc]" started-at="2024-05-26T20:15:39 IST" name="login" finished-at="2024-05-26T20:15:40 IST" duration-ms="502" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createAndDeleteUser()[pri:0, instance:com.actitime.testscript.UserModule@485966cc]" started-at="2024-05-26T20:15:40 IST" name="createAndDeleteUser" finished-at="2024-05-26T20:16:22 IST" duration-ms="42501" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createAndDeleteUser testcase has been passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createAndDeleteUser -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.actitime.testscript.UserModule@485966cc]" started-at="2024-05-26T20:16:22 IST" name="logout" finished-at="2024-05-26T20:16:26 IST" duration-ms="3490" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.actitime.testscript.UserModule@485966cc]" started-at="2024-05-26T20:16:26 IST" name="closebrowser" finished-at="2024-05-26T20:16:26 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closebrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.actitime.testscript.UserModule -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

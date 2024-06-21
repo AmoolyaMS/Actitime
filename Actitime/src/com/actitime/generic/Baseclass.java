@@ -12,7 +12,7 @@ import org.testng.annotations.BeforeTest;
 import com.actitime.pom.HomePage;
 import com.actitime.pom.LoginPage;
 public class Baseclass {
-	// static for listenerimplimentation[single object] but 
+	// static for listener implimentation [single object] but 
 	//non static for parallel execution[new objects will be created]
 	public  WebDriver driver;
 	public Filelib f=new Filelib();

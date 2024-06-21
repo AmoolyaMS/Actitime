@@ -1,14 +1,7 @@
 package com.actitime.testscript;
-import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
-import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
-import static org.testng.Assert.assertEquals;
-
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
-import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
@@ -57,7 +50,7 @@ public class UserModule extends Baseclass {
 		String actualtext=u.getCreatedUser().getText();
 		System.out.println(actualtext);
 		Thread.sleep(c);
-		AssertJUnit.assertEquals(actualtext,expectedtext);Thread.sleep(c);
+		Assert.assertEquals(actualtext,expectedtext);Thread.sleep(c);
 		u.getCreatedUser().click();
 		Thread.sleep(c);
 		u.getDeleteBtn().click();Thread.sleep(c);
